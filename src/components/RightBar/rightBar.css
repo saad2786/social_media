@@ -1,0 +1,135 @@
+.rightBar {
+  flex: 3.5;
+}
+.rightBarWrapper {
+  padding: 10px 10px 0 0;
+}
+
+.rightBarBirthDay {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.rightBarBirthdayIcon {
+  width: 50px;
+  height: 50px;
+}
+.rightBarAd {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+  margin: 20px 0;
+}
+.rightBarFriendList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.linkTag {
+  text-decoration: none;
+}
+.rightBarFriend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.rightBarFollowButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px;
+  margin: 30px 0 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #1872ff;
+  border: none;
+  color: #fff;
+}
+.rightBarProfileImgContainer {
+  position: relative;
+}
+.rightBarFriendImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightBarOnline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  border: white 3px solid;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.rightBarFriendText {
+  font-size: 15px;
+  font-weight: 500;
+}
+.rightBarInfo {
+  margin-bottom: 50px;
+}
+.rightBarTitle {
+  font-weight: 700;
+}
+.rightBarInfoItem {
+  margin-bottom: 10px;
+}
+.rightBarInfoKey {
+  font-weight: 500;
+  margin-right: 20px;
+}
+.rightBarInfoValue {
+  font-weight: 300;
+}
+.homeFriendList.rightBarFriendList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.homeFriendList .rightBarFriend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.homeFriendList .rightBarFriendText {
+  width: fit-content;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.homeFriendList.rightBarFriendImg {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.profileFriendList.rightBarFriendList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.rightBarFriend {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileFriendList .rightBarFriendImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: black;
+}
+.rightBarFriendUsername {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+}
